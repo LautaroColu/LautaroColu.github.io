@@ -1,0 +1,51 @@
+body, h1, table {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Center align page content */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ECEFF8;
+}
+
+/* Table styles */
+table {
+  width: 800px; /* Updated table width */
+  font-size: 20px; /* Updated font size */
+  background-color: #fff;
+  border-collapse: collapse;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 20px; /* Updated padding */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+td {
+  color: #555;
+}
+
+
+a {
+
+  position: absolute;
+  bottom: 630px;
+  left: 80px;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}

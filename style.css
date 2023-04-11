@@ -1,0 +1,112 @@
+*, :after, :before {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+/*---------------------------------------------------------------------*/
+/*universal selectors above*/
+
+body {
+  margin: 0;
+  background-color: #ECEFF8;
+}
+
+
+nav {
+    width: auto;
+    background-color: #ECEFF8;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+   
+    
+    
+}
+
+nav a {
+  text-decoration-line: none;
+	font-weight:bolder;
+	font-size: 60px;
+	color: black;
+  margin: 0px 120px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+nav a:hover {
+	text-decoration: underline;
+	text-decoration-color: rgb(4, 52, 211);
+	text-decoration-thickness: 2px;
+
+}
+
+
+video {
+  display: block;
+  margin: 0 auto;
+  width: 1250px;
+}
+
+
+
+h1 {
+  text-align: center;
+  color: white;
+  position: absolute; /* Change from relative to absolute */
+  bottom: 0; /* Change to 0 */
+  left: 0; /* Add left: 0 to center the heading horizontally */
+  right: 0; /* Add right: 0 to center the heading horizontally */
+  font-size: 100px;
+  
+  
+}
+
+
+
+
+img {
+
+  width: 150px;
+  height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Scroll bar*/
+
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background-color: #a2a2a2;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background-color: #555;
+	border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background-color: #000;
+  }
